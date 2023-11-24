@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* max-width: 100%; */
+    /* outline: 1px solid red;  */
+}
+
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url(fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(images/back-image.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    margin-bottom: 50px;
+}
+
+.logo a img  {
+  width: 80px;
+  transition: 0.5s;
+}
+
+.logo a img:hover {
+    transform: scale(1.3);
+}
+
+
+.bajiner-list {
+    list-style: none;
+    display: flex;
+}
+
+.bajiner-list a {
+    cursor: pointer;
+}
+
+
+.bajiner-item {
+    margin-right: 90px;
+}
+
+.bajiner-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+.bajiner-item a:hover {
+    color: #FF6347;
+}
+
+/* multiLanguage */
+
+#lezu {
+    border: 0;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+    background: none;
+}
+
+#lezu option {
+    
+}
+
+/*  */
+
+
+/* Information */
+
+.texekutyun {
+    margin-bottom: 140px;
+}
+
+.texekutyun img {
+    position: relative;
+    height: 550px;
+    filter: brightness(0.3);
+    width: 85%;
+    left: 100px;
+    border-radius: 30px;
+    /* box-shadow: 20px 20px 12px -2px rgba(0, 0, 0, 0.25); */
+    transition: .5s ease;
+}
+
+.texekutyun img:hover {
+    box-shadow: 0 0 0 10px #F5F5F5;
+transition: .5s ease;
+}
+
+.info-title {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: white;
+}
+.info-title h1 {
+    text-align: center;
+}
+
+/* Flip card kazmakerputyan xekavarner */
+
+.tiitle-xek {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: larger;
+}
+
+.xekavar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2  );
+    border-radius: 30px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 30px;
+  }
+  
+  .flip-card-back {
+    background-color: #DCDCDC;
+    color: black;
+    transform: rotateY(180deg);
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+
+  .flip-card-back h1 h2 {
+    margin-bottom: 20px;
+  }
