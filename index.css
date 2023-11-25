@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background: url(images/back-image.jpg);
+    background: url(images/back-image2.jpg);
 }
 
 .header {
@@ -70,10 +70,6 @@ body {
     background: none;
 }
 
-#lezu option {
-    
-}
-
 /*  */
 
 
@@ -95,7 +91,7 @@ body {
 }
 
 .texekutyun img:hover {
-    box-shadow: 0 0 0 10px #F5F5F5;
+    box-shadow: 0 0 10px 10px #ffffff;
 transition: .5s ease;
 }
 
@@ -114,12 +110,13 @@ transition: .5s ease;
 .tiitle-xek {
     margin-bottom: 50px;
     text-align: center;
-    font-size: larger;
+    font-size: 25px;
 }
 
 .xekavar {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 140px;
 }
 
 .flip-card {
@@ -167,5 +164,43 @@ transition: .5s ease;
   }
 
   .flip-card-back h1 h2 {
-    margin-bottom: 20px;
+   margin-bottom: 20px;
   }
+
+  /*  */
+
+  .action-report {
+    text-align: -webkit-center;
+  }
+
+  .action-title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
+  .action-info p {
+    width: 300px;
+    line-height: 25px;
+    font-size: larger;
+    margin-bottom: 25px;
+  }
+
+  .action-btn {
+    width: 171px;
+    height: 43px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    border-color: #6e4700;
+    transition: 0.5s;
+}
+
+.action-btn:hover {
+    background-color: #6e4700;
+    color: white;
+}
+  
