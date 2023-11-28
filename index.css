@@ -16,11 +16,15 @@ body {
     background: url(images/back-image2.jpg);
 }
 
-.header {
+.mobile-menu {
+  display: none;
+}
+
+.header-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px 120px;
+    margin-top: 16px;
     margin-bottom: 50px;
 }
 

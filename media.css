@@ -1,0 +1,32 @@
+@media  screen and (max-width: 768px) {
+    .header-2 {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 50px;
+    }
+
+    .mobile-menu-list {
+        list-style: none;
+    }
+
+    .icons {
+        display: flex;
+        gap: 400px;
+        align-items: center;    
+    }
+
+    .mobile-icon button {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+ 
+    .mobile-icon {
+       
+    }
+}
