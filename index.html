@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="website icon" type="png" href="images/XPVM-logo.png">
     <title>ՂՊՎՄ</title>
@@ -17,16 +19,16 @@
         <div class="bajiner">
             <ul class="bajiner-list">
                 <li class="bajiner-item">
-                    <a href="#">Գլխավոր էջ</a>
+                    <a href="index.html">Գլխավոր էջ</a>
                 </li>
                 <li class="bajiner-item">
-                    <a href="#">Կազմակերպության պատմություն</a>
+                    <a class="menu-item-scroll" data-target="history">Կազմակերպության պատմություն</a>
                 </li>
                 <li class="bajiner-item" >
-                    <a href="#">Կազմակերպության ղեկավարներ</a>
+                    <a class="menu-item-scroll"  data-target="president">Կազմակերպության ղեկավարներ</a>
                 </li> 
                 <li class="bajiner-item" >
-                    <a href="#">Կոնտակտներ</a>
+                    <a class="menu-item-scroll"  data-target="contact">Կոնտակտներ</a>
                 </li>
                 <select name="" id="lezu">
                     <option value="">ARM</option>
@@ -38,13 +40,13 @@
     </header>
 
     <section>
-        <div class="texekutyun">
+        <div class="texekutyun" id="history">
           <div class="info-img"><img src="images/glux.jpg" alt=""></div>
             <div class="info-title"><h1>Ղարաբաղյան պատերազմի վետերանների միություն </h1></div>
             <p></p>
         </div>
 
-        <div class="xekavar-glux">
+        <div class="xekavar-glux" id="president">
              <div class="tiitle-xek">
                 <h1>Կազմակերպության ղեկավարներ</h1>
             </div>
@@ -88,10 +90,21 @@
     </div>
     </section>
 
-    <footer class="footer">
-      <div class="footer-logo"><img src="images/XPVM-logo.png" alt=""></div>
+    <footer class="footer" id="contact">
+      <!-- <div class="footer-logo"><img src="images/XPVM-logo.png" alt=""></div> -->
       <div class="social-contact">
         <p class="social-text">contact for social</p>
+        <div class="social-icon">   
+        <a href="#"><img src="images/icons8-facebook-48.png" alt=""></a>
+        <a href="#"><img src="images/icons8-gmail-48.png" alt=""></a></div>
+      </div>
+      <div class="contact">
+        <p class="contact-p">contact</p>
+        <div class="contact-info">
+          <p>Tel` +374-77-97-10-99</p>
+          <p>Tel` +374-94-01-09-00</p>
+          <p>Adress` Moskovyan 5</p>
+        </div>
       </div>
     </footer>
     <script src="index.js"></script>
