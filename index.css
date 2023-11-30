@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /* max-width: 100%; */
-    /* outline: 1px solid red;  */
+      /* outline: 1px solid red;  */
 }
 
 @font-face {
@@ -11,15 +11,18 @@
     src: url(fonts/RobotoCondensed-VariableFont_wght.ttf);
 }
 
+div {
+  flex-wrap: wrap;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background: url(images/back-image2.jpg);
 }
 
-.mobile-menu {
+.menu {
   display: none;
 }
-
 .header-2 {
     display: flex;
     justify-content: space-evenly;
