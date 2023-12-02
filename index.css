@@ -148,6 +148,12 @@ transition: .5s ease;
     transform: rotateY(180deg);
   }
   
+  .flip-card-front img {
+    width:300px;
+    height:300px;
+     border-radius: 30px;
+  }
+
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -198,11 +204,11 @@ transition: .5s ease;
     height: 43px;
     border-radius: 20px;
     cursor: pointer;
-    background-color: transparent;
+    filter: blur(1);
     color: black;
     font-size: 13px;
     font-weight: bold;
-    border-color: #6e4700;
+    border-color: white;
     transition: 0.5s;
     margin-bottom: 100px;
 }

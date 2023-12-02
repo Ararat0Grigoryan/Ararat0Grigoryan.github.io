@@ -37,7 +37,7 @@
             background: none;
         }
 
-        hr {
+        .ot-menu {
             display: inline-block;
             width: 2px;
             height: 11px;
@@ -99,8 +99,29 @@
         font-size: 12px;
     }
 
+    .ot-menu-two {
+        display: none;
+    }
+
+    .menu {
+        align-items: end;
+    }
+
+    #lezu {
+        border: 0;
+        text-align: center;
+        width: 44px;
+        height: 20px;
+        cursor: pointer;
+        background: none;
+        font-size: 10px;
+    }
+
     .mobile-menu{
         margin-bottom: 16px;
+        align-items: center;
+        font-size: 13px;
+        gap: 5px;
     }
 }
 
@@ -110,8 +131,8 @@
 @media screen and (max-width: 599px) {
 
     .mobile-menu{
-    gap: 14px;
-        margin-bottom: 16px;
+    gap: 5px;
+    margin-bottom: 16px;
     } 
 
     .texekutyun img {
@@ -139,3 +160,100 @@
 }
 
 
+@media screen and (max-width: 400px) {
+   
+    .ot-menu {
+        display: none;
+    }
+
+    .ot-menu-two {
+        display: inline-block;
+        width: 2px;
+        height: 10px;
+    }
+
+    .mobile-menu {
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    #lezu {
+    border: 0;
+    text-align: center;
+    width: 44px;
+    height: 20px;
+    cursor: pointer;
+    background: none;
+    font-size: 9px;
+    }
+
+    .tiitle-xek {
+        font-size: 20px;
+    }
+    
+    .texekutyun img {
+        position: relative;
+        height: 300px;
+        filter: brightness(0.3);
+        width: 85%;
+        left: 36px;
+        display: flex;
+        border-radius: 30px;
+        box-shadow: 20px 20px 12px -2px rgba(0, 0, 0, 0.25);
+        transition: .5s ease;
+    }
+
+
+}
+
+@media screen and (max-width: 300px) {
+    .mobile-menu {
+        font-size: 7px;
+    }
+
+    #lezu {
+        font-size: 7px;
+    }
+
+    .tiitle-xek {
+        font-size: 15px;
+    }
+
+
+    .flip-card-inner {
+        width: 212px;
+        height: 215px;
+    }
+
+    .flip-card-front img {
+        width: 212px;
+        height: 215px;
+    }
+
+    .action-title {
+        font-size: small;
+    }
+
+    .action-info p {
+        font-size: small;
+        width: 245px;
+    }
+    .action-report {
+        text-align: left;
+    }
+
+    .info-img img {
+        height: 200px;
+        width: 200px;
+        left: 10%;
+    }
+
+    .info-title {
+        position: absolute;
+        top: 28%;
+        left: 10%;
+        color: white;
+        width: 200px;
+        font-size: 7px;
+    }
+}
