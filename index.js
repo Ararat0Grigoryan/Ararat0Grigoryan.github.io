@@ -9,7 +9,7 @@ document.addEventListener('click', function (event) {
 });
 
 
-
+    
 // Media Menu
 function toggleMenu() {
     var mobileMenu = document.querySelector('.mobile-menu');

@@ -83,10 +83,6 @@
     font-size: 14px;
 }
 } 
-
-/*  */
-/*  */
-
 @media screen and (max-width: 670px) {
     .texekutyun img {
         position: relative;
@@ -139,14 +135,24 @@
     }
 }
 
-/*  */
-/*  */
-
 @media screen and (max-width: 599px) {
 
     .mobile-menu{
     gap: 22px;
     } 
+
+    .logo-menu img {
+        width: 30px;
+        height: 30px; 
+        display: flex;
+        flex-direction: column;
+     }
+
+    .icon-menu img {
+        width: 30px;
+        height: 30px;
+    }
+
 
     .texekutyun img {
         position: relative;
@@ -168,7 +174,7 @@
     }
 
     .flip-card {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
 
@@ -177,7 +183,6 @@
         justify-content: space-around;
     }
 }
-
 
 @media screen and (max-width: 400px) {
    
@@ -280,26 +285,70 @@
 @media  screen and (height: 667px) {
     .info-title h1 {
         font-size: 10px;
+        margin-top: -25px;
     }
 
+    .logo-menu img {
+        width: 30px;
+        height: 30px;
+    }
     .info-img img {
         height: 250px;
         width: 300px;
     }
+
+    .icon-menu img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tiitle-xek {
+        font-size: 18px;
+    }
+
+    .flip-card {
+        width: 270px;
+    }
+
+    .flip-card-inner {
+        width: 212px;
+        height: 215px;
+    }
+
+    .flip-card-front img {
+        width: 250px;
+        height: 255px;
+    }
+
+    .xekavar {
+        margin-bottom: 100px;
+    }
+
+    .flip-card-back h1, h2 {
+        font-size: 15px;
+    }
+
+    .flip-card-back {
+        width: 250px;
+        height: 255px;
+    }
 }
 
 @media screen and (height: 896px) {
-
     .icon-menu img {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
     
     .logo-menu img {
-        width: 50px;
-        height: 50px; 
+        width: 30px;
+        height: 30px; 
         display: flex;
         flex-direction: column;
+     }
+
+     .com-center {
+        align-items: center;
      }
 
      .menu {
@@ -314,7 +363,7 @@
     .mobile-menu {
          display: flex;
          align-items: center;
-         gap: 10px;
+         gap: 15px;
          list-style: none;
     }
 
@@ -327,7 +376,7 @@
      #lezu {
          border: 0;
          text-align: center;
-         width: 52px;
+         width: 40px;
          height: 20px;
          cursor: pointer;
          background: none;
@@ -350,13 +399,106 @@
 
      .texekutyun img {
         left: 30px;
+        height: 230px;
+     }
+
+     .texekutyun {
+        margin-bottom: 130px;
      }
 
      .info-title {
         position: absolute;
-        top: 150px;
+        top: 160px;
         left: 11%;
         color: white;
         font-size: 8px;
+    }
+
+    .tiitle-xek {
+        font-size: 18px;
+    }
+
+    .flip-card {
+        width: 270px;
+    }
+
+    .flip-card-inner {
+        width: 212px;
+        height: 215px;
+    }
+
+    .flip-card-front img {
+        width: 250px;
+        height: 255px;
+    }
+
+    .xekavar {
+        margin-bottom: 100px;
+    }
+
+    .flip-card-back h1, h2 {
+        font-size: 15px;
+    }
+
+    .flip-card-back {
+        width: 250px;
+        height: 255px;
+    }
+
+}
+@media screen and (height: 844px) {
+    .logo-menu img {
+        width: 30px;
+        height: 30px; 
+        display: flex;
+        flex-direction: column;
+     }
+
+    .icon-menu img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .texekutyun img {
+        height: 250px;
+        left: 28px;
+    }
+
+    .info-title {
+        font-size: 8px;
+        padding: 0px -7px;
+        top: 15%;
+        left: 8%;
+    }
+
+    .tiitle-xek {
+        font-size: 18px;
+    }
+
+    .flip-card {
+        width: 270px;
+    }
+
+    .flip-card-inner {
+        width: 212px;
+        height: 215px;
+    }
+
+    .flip-card-front img {
+        width: 250px;
+        height: 255px;
+    }
+
+    .xekavar {
+        margin-bottom: 100px;
+    }
+
+    .flip-card-back h1, h2 {
+        font-size: 15px;
+    }
+
+    .flip-card-back {
+        width: 250px;
+        height: 255px;
     }
 }
